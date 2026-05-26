@@ -98,18 +98,6 @@ Random Forest was chosen over deep learning approaches for this dataset because:
 - ✅ **Robust & Interpretable** — resistant to noise; provides built-in feature importance for transparency
 - ✅ **Computationally Efficient** — fast training and inference for rapid iteration
 
-```python
-from sklearn.ensemble import RandomForestClassifier
-
-clf = RandomForestClassifier(
-    n_estimators=100,
-    max_depth=None,
-    random_state=42,
-    n_jobs=-1
-)
-clf.fit(X_train_pca, y_train)
-```
-
 ---
 
 ## 🛠️ Tech Stack
@@ -126,34 +114,6 @@ clf.fit(X_train_pca, y_train)
 | `scikit-learn` | PCA, Random Forest, cross-validation, metrics |
 | `matplotlib` / `seaborn` | Visualizations, confusion matrix, ROC curve |
 
----
-
-## 📁 Repository Structure
-
-```
-satellite-land-cover-classification/
-│
-├── data/                          # Raw and processed data
-│   ├── raw/                       # Original SpaceNet 7 TIFF files
-│   └── processed/                 # Tiled and labeled samples
-│
-├── notebooks/
-│   └── satellite_classification.ipynb  # Full pipeline notebook
-│
-├── src/
-│   ├── tile_generation.py         # Image tiling logic
-│   ├── feature_extraction.py      # 81-feature extraction
-│   ├── train_model.py             # Model training & evaluation
-│   └── visualize.py               # Plots and maps
-│
-├── outputs/
-│   ├── confusion_matrix.png
-│   ├── roc_curve.png
-│   └── feature_importance.png
-│
-├── requirements.txt
-└── README.md
-```
 
 ---
 
