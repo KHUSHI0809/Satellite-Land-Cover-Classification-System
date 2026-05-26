@@ -1,7 +1,7 @@
 
 ## 📌 Overview
 
-An end-to-end machine learning pipeline that classifies Paris regions as **Developed** (urban infrastructure, streets, buildings) vs **Undeveloped** (vegetation, parks, water bodies) using **8-band multispectral satellite imagery** from the SpaceNet 7 Challenge. This project addresses real-world needs in urban planning, rapid mapping, and global land monitoring by automating land-cover classification at scale — without requiring expensive deep-learning infrastructure.
+An end-to-end machine learning pipeline that classifies Paris regions as **Developed** (urban infrastructure, streets, buildings) vs **Undeveloped** (vegetation, parks, water bodies) using **8-band multispectral satellite imagery** from the SpaceNet 7 Challenge. This project addresses real-world needs in urban planning, rapid mapping, and global land monitoring by automating land-cover classification at scale , without requiring expensive deep-learning infrastructure.
 
 ---
 
